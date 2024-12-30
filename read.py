@@ -1,0 +1,10 @@
+f = open("input.csv")
+for i in range(19):
+    f.readline()
+baca = f.readline()
+baca2 = f.readline()
+f.close()
+g = open("output.csv", "w")
+g.write(baca)
+g.write(baca2)
+g.close()
