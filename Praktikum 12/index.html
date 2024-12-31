@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><title>Akses dengan SimpleHTTPRequestHandler</title></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri</title>
+    <style>
+        body {
+            display: flex;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+        .profile-image {
+            width: 300px;
+            height: 300px; /* 6x4 aspect ratio */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 20px;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .profile-info {
+            flex: 1;
+        }
+    </style>
+</head>
 <body>
-    <h3>Data Diri</h3>
-    <p>Nama: Alya Rusyda Maharistya</p>
-    <p>Alamat tinggal: Sukoharjo</p>
-    <p>Tempat, tanggal lahir: Sukoharjo, 31 Juli 2006</p>
-    <p>Tempat wisata favorit: Pantai</p>
-    <p>Motto: Mantap</p>
-    <pre>python -m http.server 8123</pre>
+
+    <div class="profile-image">
+        <img src="futu.jpg" alt="Foto Profil">
+    </div>
+
+    <div class="profile-info">
+        <h1>Data Diri</h1>
+        <p>Nama: Alya Rusyda Maharistya</p>
+	<p>Alamat Tinggal: Sukoharjo, Jawa Tengah, Indonesia</p>
+        <p>Tempat, Tanggal Lahir: Sukoharjo, 30 Februari 2004</p>
+        <p>Tempat Wisata Favorit: Mars</p>
+        <p>Motto: bismillah bisa</p>
+    </div>
+
 </body>
 </html>
