@@ -10,7 +10,7 @@ elif 14.00 <= jam < 18.00:
     salam = time[2]  # Sore
 elif 18.00 <= jam < 20.00:
     salam = time[3]  # Petang
-elif 20.00 <= jam <= 00.00:
+elif 20.00 <= jam <= 23.59:
     salam = time[4]  
 else:
     salam = None

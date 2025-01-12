@@ -12,9 +12,9 @@ print("""
 # """)
 print("""
     <h3>Data Diri</h3>
-    <p>Nama: Alya Rusyda Maharistya</p>
+    <p>Nama: Yulia Widyawati</p>
     <p>Alamat tinggal: Sukoharjo</p>
-    <p>Tempat, tanggal lahir: Sukoharjo, 31 Juli 2006</p>
+    <p>Tempat, tanggal lahir: Sukoharjo, 31 Juli 2005</p>
     <p>Tempat wisata favorit: Mars</p>
     <p>Motto: Mantap</p>
 """)

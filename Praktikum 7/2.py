@@ -6,7 +6,7 @@ while kesempatan > 0:
         print("Anda behasil login")
         break
     else:
-        kesempatan -=1
+        kesempatan -= 1
         if kesempatan > 0:
             print("Maaf, anda salah memasukkan password.")
         else:
